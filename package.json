@@ -1,8 +1,8 @@
 {
-  "name": "default-light-ui",
+  "name": "sunset2-dark-ui",
   "version": "2.1.0",
   "theme": "ui",
-  "description": "Default Light UI Theme for Inkdrop",
+  "description": "Sunset dark UI Theme for Inkdrop",
   "styleSheets": [
     "theme.min.css"
   ],

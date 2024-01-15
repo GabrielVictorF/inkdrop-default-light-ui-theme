@@ -14,16 +14,16 @@
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : #171A21;
-@sidebarMenuItemActiveBackground: lighten(#242833, 10%);
+@sidebarBackground     : #1f1f1f;
+@sidebarMenuItemActiveBackground: lighten(#1f1f1f, 10%);
 @sidebarMenuSectionColor: @invertedUnselectedTextColor;
-@sidebarMenuSectionSeparatorColor: rgba(255,255,255,0.1);
-@sidebarMenuItemColor  : @invertedLightTextColor;
-@sidebarMenuActionColor : @invertedDisabledTextColor;
-@sidebarMenuActionHoverColor : @invertedLightTextColor;
-@sidebarSyncStatusViewBackground: #12151A;
-@sidebarSyncStatusViewTextColor: @invertedMutedTextColor;
-@sidebarSyncStatusViewDetailColor: @invertedUnselectedTextColor;
+@sidebarMenuSectionSeparatorColor: white;
+@sidebarMenuItemColor  : white;
+@sidebarMenuActionColor : white;
+@sidebarMenuActionHoverColor : white;
+@sidebarSyncStatusViewBackground: #1f1f1f;
+@sidebarSyncStatusViewTextColor: white;
+@sidebarSyncStatusViewDetailColor: white;
 @sidebarScrollbarWidth: 6px;
 @sidebarScrollbarTrackBackground: rgba(255,255,255,0.02);
 @sidebarScrollbarThumbBackground: rgba(255,255,255,0.2);
@@ -39,15 +39,15 @@
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: rgb(245, 245, 244);
+@noteListBarBackground: #1f1f1f;
 @noteListBarPinnedSectionHeaderBackground: #e6e6e6;
 @noteListBarPinnedSectionHeaderBorderBottom: none;
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid #ccc;
-@noteListViewItemColor: @mutedTextColor;
-@noteListViewItemSeparatorBorder: 1px solid @whiteDown;
+@noteListViewItemColor: white;
+@noteListViewItemSeparatorBorder: 3px solid #353535;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @blueFocus;
-@noteListViewItemActiveBackground: @primaryColor;
+@noteListViewItemActiveBackground: #353535;
 @noteListViewItemActiveColor: @invertedTextColor;
 @noteListViewItemActiveDateColor: @invertedTextColor;
 @noteListViewItemActiveTagColor: @invertedTextColor;
